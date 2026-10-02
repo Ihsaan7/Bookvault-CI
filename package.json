@@ -8,6 +8,7 @@
     "start": "node server.js",
     "format:check": "prettier --check .",
     "format:write": "prettier --write .",
+    "db:migrate": "node migrate.js",
     "lint": "eslint"
   },
   "keywords": [],
