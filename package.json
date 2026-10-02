@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"✅ Tests Passed\" && exit 0",
-    "start":"node server.js"
+    "start": "node server.js",
+    "formate:check":"prettier --check .",
+    "lint":"eslint"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +15,9 @@
   "type": "module",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.11.0",
+    "prettier": "^3.9.9"
   }
 }
